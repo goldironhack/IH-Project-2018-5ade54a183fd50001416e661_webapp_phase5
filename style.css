@@ -1,9 +1,60 @@
 body {
-    color: #444;
-    font-family: Arial, sans-serif;
+    /*color: #444;
+    font-family: Arial, sans-serif;*/
+    background-color:SteelBlue !important;
 }
 
 .container {
     width: 100%;
     max-width: 960px;
+}
+
+.row{
+    padding-top: 5px;
+}
+
+button{
+    padding-top: 15px;
+    width: 100px;
+    font-family: 'Kavivanar', cursive !important;
+    background-color: #33e0ff;
+}
+
+button:hover{
+    background-color: #7d33ff;
+}
+
+#mapContainer {
+    border: 15px;
+    width: 100%;
+    height: 520px;
+}
+
+#buttonContainer{
+    padding-top: 5px;
+    width: 100%;
+    height: 520px;
+}
+
+#buttonContainer{
+    width: 100%;
+    height: 520px;
+}
+
+#titleContainer{
+    background-color:CadetBlue !important;
+    text-align: center;
+    font-family: 'Kavivanar', cursive !important;
+}
+
+#subtitleContainer{
+    background-color:CadetBlue !important;
+    text-align: center;
+    font-family: 'Kavivanar', cursive !important;
+}
+
+#optionContainer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: blue 2px solid;
 }
